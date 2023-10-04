@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5};
+    int arr[] = {1, 2, 3, 4, 5,6};
     int sum = 0;
 
     printf("Array elements: ");
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 6; i++) {
         printf("%d ", arr[i]);
         sum += arr[i];
     }
